@@ -1,15 +1,15 @@
 {
-  "name": "react_rails_starter_app",
+  "name": "common_design_hub",
   "version": "1.0.0",
   "description": "React Starter App with Rails. Uses webpacker.",
   "author": "atomicjolt",
   "license": "MIT",
-  "homepage": "https://github.com/atomicjolt/react_rails_starter_app",
+  "homepage": "https://github.com/atomicjolt/common_design_hub",
   "scripts": {
     "test": "jest --config package.json",
     "test_update": "jest -u --config package.json",
     "test_debug": "node inspect jest --runInBand --config package.json || SUCCESS=false",
-    "hot": "./bin/webpack-dev-server",
+    "dev": "./bin/webpack-dev-server",
     "lint": "eslint client",
     "lint_fix": "eslint client --fix",
     "nuke": "rm -rf node_modules",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/atomicjolt/react_rails_starter_app"
+    "url": "https://github.com/atomicjolt/common_design_hub"
   },
   "keywords": [
     "React",

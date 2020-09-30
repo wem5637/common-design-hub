@@ -1,12 +1,12 @@
 # run with:
-# rails new my_app -m ./react_rails_starter_app/template.rb
-# rails new my_app -m https://raw.githubusercontent.com/atomicjolt/react_rails_starter_app/master/template.rb
+# rails new my_app -m ./common_design_hub/template.rb
+# rails new my_app -m https://raw.githubusercontent.com/atomicjolt/common_design_hub/master/template.rb
 
 require "fileutils"
 require "securerandom"
 
-# repo = "git@github.com:atomicjolt/react_rails_starter_app.git"
-repo = "https://github.com/atomicjolt/react_rails_starter_app.git"
+# repo = "git@github.com:atomicjolt/common_design_hub.git"
+repo = "https://github.com/atomicjolt/common_design_hub.git"
 
 # keep track if the initial directory
 @working_dir = destination_root
@@ -116,19 +116,19 @@ modify_files << "Gemfile"
 modify_files << ".ruby-gemset"
 
 modify_files.each do |f|
-  gsub_file(f, "react_rails_starter_app") do |_match|
+  gsub_file(f, "common_design_hub") do |_match|
     app_name.underscore
   end
 
-  gsub_file(f, "reactrailsstarterapp") do |_match|
+  gsub_file(f, "commondesignhub") do |_match|
     app_name.titleize.gsub(" ", "")
   end
 
-  gsub_file(f, "ReactRailsStarterApp") do |_match|
+  gsub_file(f, "commondesignhub") do |_match|
     app_name.titleize.gsub(" ", "")
   end
 
-  gsub_file(f, "reactrailsstarterapp") do |_match|
+  gsub_file(f, "commondesignhub") do |_match|
     url_safe_name
   end
 

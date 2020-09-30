@@ -1,4 +1,4 @@
-# React Rails Starter App [![Build Status](https://travis-ci.org/atomicjolt/react_client_starter_app.svg?branch=master)](https://travis-ci.org/atomicjolt/react_client_starter_app) [![Coverage Status](https://coveralls.io/repos/github/atomicjolt/react_rails_starter_app/badge.svg?branch=master)](https://coveralls.io/github/atomicjolt/react_rails_starter_app?branch=master)
+# React Rails Starter App [![Build Status](https://travis-ci.org/atomicjolt/react_client_starter_app.svg?branch=master)](https://travis-ci.org/atomicjolt/react_client_starter_app) [![Coverage Status](https://coveralls.io/repos/github/atomicjolt/common_design_hub/badge.svg?branch=master)](https://coveralls.io/github/atomicjolt/common_design_hub?branch=master)
 -----------------------
 There are many starter kits that will help you get started with React and Redux.
 This is the one created by, maintained by and used by [Atomic Jolt](http://www.atomicjolt.com).
@@ -7,7 +7,7 @@ utilize React.
 
 ## Build a new application using the React Rails Starter App Rails application template:
 -----------
-rails new my_app -m https://raw.githubusercontent.com/atomicjolt/react_rails_starter_app/master/template.rb
+rails new my_app -m https://raw.githubusercontent.com/atomicjolt/common_design_hub/master/template.rb
 
 ## Running React Rails Starter App
 -----------
@@ -33,9 +33,9 @@ Note: the App and Assets subdomains must be different.
 
 #### Modify application name
 -----------
-1. Open application.rb and change `reactrailsstarterapp` to the name you choose.
-2. Do a global search and replace for `react_rails_starter_app` and change it to the name you choose.
-3. Do a global search and replace for `reactrailsstarterapp` (use only letters or numbers for this name. Special characters like '_' will result in errors).
+1. Open application.rb and change `commondesignhub` to the name you choose.
+2. Do a global search and replace for `common_design_hub` and change it to the name you choose.
+3. Do a global search and replace for `commondesignhub` (use only letters or numbers for this name. Special characters like '_' will result in errors).
 
 #### Secrets file
 -----------
